@@ -64,6 +64,7 @@
     top: 0;
     grid-area: nav;
     padding: 10px;
+    z-index: 100;
 }
 
 .videoclass1{
@@ -90,6 +91,12 @@
 .imagen__clas1{
 	width: 100%;
 	height: auto;
+	transition: .5s;
+}
+
+.imagen__clas1:hover{
+	transform: scale(1.02);
+	cursor: pointer;
 }
 
 .menu{
@@ -108,10 +115,19 @@
 	font-weight: 700;
 	text-transform: uppercase;
 	margin: 0 10px;
+	transition: .5s;
+}
+
+.menu__link:hover{
+	color: #FFFFA8;
 }
 
 .header__logo{ width: 300px;
+	transition: .5s;
+}
 
+.header__logo:hover{
+	transform: scale(1.01);
 }
 
 .register__logo{
@@ -120,6 +136,11 @@
 
 .header__social{ 
 	width: 30px;
+	transition: .5s;
+}
+
+.header__social:hover{
+	transform: scale(1.01);
 }
 
 .redes-sociales{
@@ -163,7 +184,12 @@ font-weight: 750;
 .producto__img{
 	width: 100%;
 	height: auto;
+	transition: .5s;
+}
 
+.producto__img:hover{
+	transform: scale(1.02);
+	cursor: pointer;
 }
 
 .tabla{
